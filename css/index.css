@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: '微软雅黑';
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.safe{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.safe::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*header开始*/
+header{height: 40px;background: #404040;}
+
+.header_left{
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    font-size: 12px;
+    float: left;
+}
+
+/*.header_left> .iconfont{font-size: 14px;}*/
+
+.header_right{
+    line-height: 40px;
+    font-size: 0;
+    height: 40px;
+    float: right;
+}
+
+.header_right_text1{color: #3d87e2;font-size: 12px;text-decoration: none;}
+
+.header_right_text2{
+    color: #38d823;
+    font-size: 12px;
+    margin: 0 24px;
+    text-decoration: none;
+}
+.header_right_text3{color: white;font-size: 12px;text-decoration: none;}
+/*header结束*/
+
+/*menu 开始*/
+nav{
+    height: 75px;
+    background: #ffffff;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.menu{
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+}
+
+.menu>li{
+    display: inline-block;
+    color: #171717;
+    font-size: 18px;
+    width: 120px;
+    height: 75px;
+    line-height: 75px;
+}
+.menu>li:hover{background: #c7c7c7}
+
+.logo{margin-top: 15px;}
+/*menu 结束*/
+
+/*banner开始*/
+#banner{
+    height: 375px;
+    background: #f8f8f8;
+}
+.swiper-container {
+    height: 375px;
+}
+
+.swiper-slide{
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg1{
+     background-image: url(../img/banner.jpg);
+ }
+.bg2{
+    background-image: url(../img/bg1.jpeg);
+}
+.bg3{
+    background-image: url(../img/bg2.jpeg);
+}
+/*banner结束*/
+
+/*第一层开始*/
+.f1{
+    list-style: none;
+    text-align: center;
+    margin: 18px 0 22px 0;
+}
+.f1_li{
+    width: 241px;
+    display: inline-block;
+}
+.f1_jl{margin: 0 216px;}
+.f1_li>h4{
+    color: #2b2b2b;
+    font-size: 18px;
+    margin: 5px 0 11px 0;
+}
+.f1_li>p{color: #2b2b2b;font-size: 12px;}
+
+/*第一层结束*/
+
+/*投资列表开始*/
+.tzlb{
+    width: 100%;
+    background: #def0fa;
+    border: 1px solid #bfbfbf;
+    padding: 0 10px;
+    color: #2b2b2b;
+    /*border-collapse: collapse;*/
+}
+
+.tzlb_th{
+    height: 37px;
+    font-size: 15px;
+    border-bottom: 1px solid #bfbfbf;
+    text-align: left;
+}
+
+.icon-shuzhuangtu{
+    color:#224e73;
+}
+
+.tzlb td{
+    height: 73px;
+    text-align: center;
+}
+
+.td1{width: 123px;}
+.td2{width: 127px;}
+.td3{width: 283px;}
+.td4{width: 134px;}
+.td5{width: 254px;}
+.td6{width: 88px;}
+
+.td-t1{
+    font-size: 18px;
+}
+
+.tzlb_icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background: #24a9f1;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.td-t2{font-size: 15px;}
+
+.jindu{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background: white;
+    border: 3px solid #447d19;
+    font-size: 12px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+
+.tzlb_button{
+    width: 88px;
+    height: 26px;
+    background: #0090ff;
+    border-radius: 26px;
+    color: white;
+    font-size: 12px;
+    border: none;
+}
+
+#tzlb_tf{
+    height: 63px;
+    font-size: 15px;
+    color: #9c9c9c;
+}
+
+.dashed{
+    border-bottom: 1px dashed #bfbfbf;
+}
+
+.hover:hover{
+    background: #fdfaee;
+}
+/*投资列表结束*/
+
+/*投资效果 开始*/
+.tzxg{
+    height: 353px;
+    border: 1px solid #bfbfbf;
+    margin-top: 27px;
+}
+
+.tzxg>p{
+    color: #2b2b2b;
+    font-size: 15px;
+    margin: 11px 0 0 9px;
+}
+
+.tzxg>hr{margin-top: 11px;}
+
+.tzxg_content{
+    list-style: none;
+}
+
+.tzxg_content>li{
+    width: 224px;
+    height: 220px;
+    float: left;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 46px;
+}
+
+.tzxg_t1{
+    font-size: 15px;
+    color: black;
+    margin: 20px 0 10px 0;
+}
+
+.tzxg_t2{
+    font-size: 32px;
+    color: #2f2f2f;
+}
+
+.tzxg_t3{
+    font-size: 18px;
+    color: #2f2f2f;
+    font-weight: normal;
+}
+
+.tzxg_content>.tzxg_li4{
+    width: 250px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.tzxg_li3{
+    padding-top: 10px;
+}
+
+.tzxg_li2{
+    padding-top: 12px;
+}
+/*投资效果 结束*/
+
+/*合作伙伴开始*/
+.hzhb_head{
+    font-size: 18px;
+    color: #2f2f2f;
+    padding: 20px 10px;
+}
+
+.hzhb_head>a{
+    text-decoration: none;
+    float: right;
+    color: #2f2f2f;
+}
+
+.hzhb_lz{
+    padding-left:54px;
+    padding-top: 8px;
+}
+
+.hzhb_a{
+    width: 207px;
+    height: 65px;
+    border: 1px solid #bfbfbf;
+    display: block;
+    float: left;
+    margin-right: 85px;
+    margin-bottom: 33px;
+}
+
+.a4{
+    margin-right: 54px;
+}
+
+.a-bottom{
+    margin-bottom: 8px;
+}
+
+.a1_img{
+    background-image: url(../img/hzhb_1.jpg);
+    background-size: 100% 100%;
+}
+
+.a2_img{
+    background-image: url(../img/hzhb_2.jpg);
+    background-size: 100% 100%;
+}
+
+.a3_img{
+    background-image: url(../img/hzhb_3.jpg);
+    background-size: 100% 100%;
+}
+
+.a4_img{
+    background-image: url(../img/hzhb_4.jpg);
+    background-size: 100% 100%;
+}
+
+.a5_img{
+    background-image: url(../img/hzhb_5.jpg);
+    background-size: 100% 100%;
+}
+
+.a6_img{
+    background-image: url(../img/hzhb_6.jpg);
+    background-size: 100% 100%;
+}
+
+.a7_img{
+    background-image: url(../img/hzhb_7.jpg);
+    background-size: 100% 100%;
+}
+
+.a8_img{
+    background-image: url(../img/hzhb_8.jpg);
+    background-size: 100% 100%;
+}
+/*合作伙伴结束*/
+
+/*友情链接开始*/
+#yqlj{
+    margin-top: 20px;
+}
+
+.yqlj_head{
+    font-size: 18px;
+    color: #2f2f2f;
+    padding: 6px 10px;
+}
+
+.yqlj_head>a{
+    text-decoration: none;
+    float: right;
+    color: #2f2f2f;
+}
+
+.yqlj_lz{
+    padding: 18px 0 24px 11px;
+}
+
+.yqlj_lz>a{
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 18px;
+    margin-right: 32px;
+}
+
+.yqlj_lz>a:hover{
+    color: #ffba00;
+}
+/*友情链接结束*/
+
+/*底部开始*/
+#buttom{
+    background: #eeeeee;
+    border-top: 1px solid #a3a3a3;
+    text-align: center;
+}
+
+.bottom_lz{
+    margin-top: 51px;
+    margin-bottom: 38px;
+}
+
+.bottom_lz>a{
+    text-decoration: none;
+    font-size: 15px;
+    width: 100px;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    border-right: 1px solid #2e4c97;
+}
+
+#buttom>p{
+    font-size: 12px;
+    color: black;
+}
+
+.bottom_img{
+    list-style: none;
+    margin-top: 34px;
+}
+
+.bottom_img>li{
+    display: inline-block;
+    margin-right: 31px;
+}
+/*底部结束*/
+
+
+
